@@ -3,9 +3,9 @@
 #include <time.h>
 
 /**
- * main: print last digit in random number
+ * main -program that prints the last digit of the random
+ * number stored in the variable n
  *
- * Description: Program that print last digit of a random number
  * Return: Always 0 (Success)
  */
 
