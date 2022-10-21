@@ -1,5 +1,5 @@
 # Directory for ALX 0x12. C - Singly linked lists
-======
+------
 ## About
 An introductory project on:
 ---
@@ -9,7 +9,7 @@ The difference between linked lists and arrays
 ## Requirements
 * Ubuntu 20.04
 * gcc 9.1.2
-======
+---
 ## File Descriptions
 ### [lists.h - header file containing the definition of list_t and the prototypes of all functions.](./lists.h)
 
