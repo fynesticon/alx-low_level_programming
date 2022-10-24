@@ -1,16 +1,16 @@
-#Directory for ALX 0x12. C - Singly linked lists
----
-##About
+# Directory for ALX 0x12. C - Singly linked lists
+------
+## About
 An introductory project on:
 ---
 How to build and use linked lists
 The difference between linked lists and arrays
 ---
-##Requirements
+## Requirements
 * Ubuntu 20.04
 * gcc 9.1.2
 ---
-##File Descriptions
+## File Descriptions
 ### [lists.h - header file containing the definition of list_t and the prototypes of all functions.](./lists.h)
 
 ### [0-print_list.c - function that prints all the elements of a list_t list.](./0-print_list.c)
@@ -23,7 +23,7 @@ The difference between linked lists and arrays
 
 ### [4-free_list.c - function that frees a list_t list.](./4-free_list.c)
 
-##Advanced
+## Advanced
 ### [100-first.c - function that executes before the main function.](./100-first.c)
 
 ### [101-hello_holberton.asm - assembly that prints Hello, Holberton, followed by a new line.](./101-hello_holberton.asm)
