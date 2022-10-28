@@ -8,25 +8,23 @@
  */
 unsigned int binary_to_uint(const char *b)
 {
-	unsigned int i, len;
-	unsigned int decval;
+	unsigned int ui;
+	int len, base_two;
 
-	i = len = decval = 0;
-	if (b == NULL)
+	if (!b)
 		return (0);
-	while (b[len] != '\0')
+
+	ui = 0;
+
+	for (len = 0; b[len] != '\0'; len++)
+		;
+	for (len--, base_two = 1; len >= 0; len--, base_two *= 2)
 	{
-		if (b[len] == '0' || b[len] == '1')
-			len++;
-		else
+		if (b[len] != '0' && b[len] != '1')
 			return (0);
+		if (b[len] & 1)
+			ui += base_two;
 	}
-	while (i < len)
-	{
-		decval = decval << 1;
-		if (b[i] == '1')
-			decval += 1;
-		i++;
-	}
-	return (decval);
+
+	return (ui);
 }
