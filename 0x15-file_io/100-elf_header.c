@@ -127,7 +127,7 @@ void print_version(char *ptr)
  * print_data - prints data
  * @ptr: magic.
  * Return: no return.
- */
+ *
 
 void print_data(char *ptr)
 {
@@ -141,13 +141,14 @@ void print_data(char *ptr)
 		printf(", big endian\n");
 }
 
-/**
+ *
  * print_magic - prints magic info.
  * @ptr: magic.
  * Return: no return.
  */
 
-void print_magic(char *ptr)
+/**
+ * void print_magic(char *ptr)
 {
 	int bytes;
 
@@ -160,11 +161,11 @@ void print_magic(char *ptr)
 
 }
 
-/**
+**
  * check_sys - check the version system.
  * @ptr: magic.
  * Return: no return.
- */
+ *
 
 void check_sys(char *ptr)
 {
@@ -189,11 +190,11 @@ void check_sys(char *ptr)
 	print_addr(ptr);
 }
 
-/**
+ *
  * check_elf - check if it is an elf file.
  * @ptr: magic.
  * Return: 1 if it is an elf file. 0 if not.
- */
+ *
 
 int check_elf(char *ptr)
 {
@@ -208,7 +209,7 @@ int check_elf(char *ptr)
 	return (0);
 }
 
-/**
+ *
  * main - check the code for Holberton School students.
  * @argc: number of arguments.
  * @argv: arguments vector.
