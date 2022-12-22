@@ -1,2 +1,1 @@
-# Dynamic Libraries
-* main.h, libholberton.so: dynamic library libholberton.so containing all the functions listed
+This is a README for my 0x18-dynamic_libraries project!

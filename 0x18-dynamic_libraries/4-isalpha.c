@@ -1,13 +1,17 @@
-#include "main.h"
+#include "holberton.h"
 /**
- * _isalpha - controls if a character is alphabetical
- * @c: character to be verified
- * Return: return 0 or 1
+ * _isalpha -  filters Holberton input
+ *
+ * @c: char / ASCII character
+ *
+ * Return: 1 when true, 0 for all else
  */
 int _isalpha(int c)
 {
-	if ((c >= 65 && c <= 90) || (c >= 97 && c <= 122))
+
+	if (c > 64 && c < 123)
 		return (1);
 
-	return (0);
+	else
+		return (0);
 }

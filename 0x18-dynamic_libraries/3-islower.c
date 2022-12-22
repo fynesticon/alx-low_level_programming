@@ -1,13 +1,17 @@
-#include "main.h"
+#include "holberton.h"
 /**
- * _islower - controls if a character is in lowercase
- * @c: character to be verified
- * Return: return 0 or 1
+ * _islower -  filters Holberton input
+ *
+ * @c: char / ASCII character
+ *
+ * Return: 1 when true, 0 for all else
  */
 int _islower(int c)
 {
-	if (c >= 'a' && c <= 'z')
+
+	if (c > 91)
 		return (1);
 
-	return (0);
+	else
+		return (0);
 }

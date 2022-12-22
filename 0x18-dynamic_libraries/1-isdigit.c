@@ -1,14 +1,15 @@
-#include "main.h"
+#include "holberton.h"
 /**
- * _isdigit - function that verifies if a  character is a digit or not
- * @c: tested character
- * Return: returns 1 if it is uppercase , 0 if not
+ * _isdigit - int _isdigit(int c) function returns 1 if c is a 0-9 digit
+ *
+ * @c: int c
+ *
+ * Return: 1 or 0
  */
-
 int _isdigit(int c)
 {
-	if ((c >= 48) && (c <= 57))
+	if (c > 47 && c < 58)
 		return (1);
-
-	return (0);
+	else
+		return (0);
 }
